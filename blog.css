@@ -9,20 +9,12 @@ body{
     width: 100vw;
 }
 .main{
-<<<<<<< HEAD
     max-width: 75vw;
     margin: 0 auto;
 
 }
 
 
-
-=======
-    max-width: 66vw;
-    margin: 0 auto;
-
-}
->>>>>>> 335448bc678dbe484f7ced8fe6c5b449f0dcff1f
 .container{
 
     max-width: 95vw;
