@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    background-color: brown;
+    padding: 2rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.item{
+    height: 150px;
+    padding: 2rem;
+    width: 150px;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+}
+
+
+#rotatex:hover{
+    transform: rotateX(-60deg);
+}
+#rotatey:hover{
+    transform: rotateY(-60deg);
+}
+#rotatez:hover{
+    transform: rotateZ(-60deg);
+}
+#translatex:hover{
+    transform: translateX(100px);
+}
+#translatey:hover{
+    transform: translateY(100px);
+}
+#translatez:hover{
+    /* for z axis we've to define a perspective */
+    transform:perspective(300px) translateZ(100px);
+}
+#scalex:hover{
+    transform: scaleX(1.5);
+}
+#scaley:hover{
+    transform: scaleY(1.5);
+}
+#scalez:hover{
+    transform:perspective(300px) rotateY(30deg) scaleY(1.5);
+}
